@@ -1,7 +1,7 @@
 # LuckyCubeKit
 READ ME PLEASEE
 
-(Sorry for the mess of code and organizing ^^'') <br/>
+(As of December 4 2025, I added comments to the scripts in the github.) <br/>
 
 Hi! This was a one day challenge to try to create something in less than 24/7, I like to do these sometimes. <br/>
 This was apart of a kit I planned to sell before I stopped doing tiktok. <br/>
