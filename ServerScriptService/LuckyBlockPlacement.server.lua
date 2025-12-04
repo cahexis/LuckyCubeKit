@@ -3,7 +3,7 @@ local buildings = rep.Buildings
 local placecube = rep.PlaceCube
 local cube = rep.PlacedCube
 local debounce = false
-placecube.OnServerEvent:Connect(function(player, rootpos)
+placecube.OnServerEvent:Connect(function(player, rootpos) -- handles placement of the block, so its infront of the player.
 	local backpack = player:WaitForChild("Backpack")
 	local character = player.Character
 	if character:FindFirstChildWhichIsA("Tool") then
