@@ -36,7 +36,7 @@ local function picker() -- chooses randomly from folders inside of folders in th
 		randomselect:MoveTo(Vector3.new(cube.Position.X, cube.Position.Y, cube.Position.Z))
 	end
 end	
-prompt.Triggered:Connect(function() -- plays a little animation before it chooses.
+prompt.Triggered:Connect(function() -- the script that plays when the block is interacted with via ProximityPrompt
 	prompt.Enabled = false
 	tsc1:Play()
 	tsc2:Play()
