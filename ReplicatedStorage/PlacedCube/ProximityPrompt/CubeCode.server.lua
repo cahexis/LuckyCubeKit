@@ -14,7 +14,7 @@ local itemslist = rep.Items
 
 
 
-local function picker()
+local function picker() -- chooses randomly from folders inside of folders in the ReplicatedStorage, then places them in different positions.
 	local modechose = {itemslist, enemylist, buildinglist}
 	local randommode = modechose[math.random(#modechose)]
 	local modechosen = randommode
@@ -36,7 +36,7 @@ local function picker()
 		randomselect:MoveTo(Vector3.new(cube.Position.X, cube.Position.Y, cube.Position.Z))
 	end
 end	
-prompt.Triggered:Connect(function()
+prompt.Triggered:Connect(function() -- plays a little animation before it chooses.
 	prompt.Enabled = false
 	tsc1:Play()
 	tsc2:Play()
